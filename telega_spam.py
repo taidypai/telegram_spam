@@ -39,4 +39,4 @@ schedule.every(10).minutes.do(schedule_task)
 
 while True:
     schedule.run_pending()
-    time.sleep(1200)  # Проверяем задачи раз 20 минут
+    time.sleep(1200)
